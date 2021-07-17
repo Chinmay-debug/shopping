@@ -1,0 +1,60 @@
+
+.car:nth-child(even) {
+    margin-top: 50px;
+    background-image: linear-gradient(45deg,beige,brown,#761137); 
+    padding: 10px;
+    color: yellow;
+    
+}
+.car:nth-child(odd){
+    margin-top: 50px;
+    background-image: linear-gradient(45deg,beige,brown,#761137); 
+    padding: 10px;
+    color: pink;
+    
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 800px;
+    background-color: white;
+   border: 20px solid white;
+    
+  }
+a{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: linear-gradient(23deg,#d2b48c,#f5deb3,#deb887,#ffdab9,#ffa089,#ffc0cb,#db7093,#f984ef);
+}
+
+.contactus{
+    background-image:linear-gradient(45deg,#00ffff,#00ced1,#afeeee,#800000,#cb4154,#7cfc00,#b2ec5d);
+  
+    font-family: ui-serif;
+    color:yellow;
+    
+  
+  }
+  .card:hover {
+    box-shadow: 0 16px 16px 0 orangered;
+    transform:scale(1.2,1.3);
+  }
+  
+
+  p{
+    display:inline;
+    padding:5px;
+    margin:10px;
+    color:black;
+  }
+
+  img{
+    border:5px solid ;
+  }
+  h5{
+    border-bottom:5px solid;
+    border-top:5px solid;
+  }
